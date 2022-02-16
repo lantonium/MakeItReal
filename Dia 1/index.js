@@ -18,6 +18,7 @@ Operadores aritméticos:
 /
 */
 console.log(10 + 5* (2-3)); // expresión aritmética
+
 /*
 Operadores relacionales:
 >
@@ -27,5 +28,26 @@ Operadores relacionales:
 ==
 ===
 */
-console.log(10> 5); // true
-console.log(2 == 2); // true console.log(3< -1); // false
+console.log("Operadores relacionales:");
+console.log(10 > 5); // true
+console.log(2 2); // true ==
+console.log(3 < -1); // false 
+console.log(10 + 5* (23) > 5); // ?
+
+/*
+conjunción
+    true y true = true
+    true y false = false
+    false y true = false
+    false y false = false
+disyunción
+    true o true = true
+    true o false = true
+    false o true = true
+    false o false = false
+*/
+console.log("conjunción y disyunción:"); 
+console.log(true && true);
+console.log(true || false);
+console.log((10 + 5* (2 − 3) > 5) && (10 > 2));
+
